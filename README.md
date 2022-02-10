@@ -7,10 +7,10 @@ of in Gitpod (gitpod is zonder mailen van orders en zonder permanent hosten):
 [Run on Gitpod](https://gitpod.io/#https://github.com/emmauscollege/5HV-webshop-template)
 
 ### In mijn webshop vind je: 
-- *wat je verkoopt*
+- *Bloemen*
 ### Deze webshop is gemaakt door: 
 - *Annika* 
--  *naam van leerling 2*
+-  *Alyssa*
 -  *naam van leerling 3*
 
 # Mijn aanpak
