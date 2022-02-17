@@ -33,7 +33,7 @@ CREATE TABLE verzorging (
   klimaat VARCHAR (15),
   specification TEXT,
   voeding VARCHAR (15),
-
+//1:n//
 );
 
 insert into verzorging (klimaat,specification,voeding) values ('warm', 'schuin snijden', 'niet nodig'); 
@@ -42,4 +42,10 @@ insert into verzorging (klimaat,specification,voeding) values ('warm', 'schuin s
 CREATE TABLE symboliek(
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   betekenis VARCHAR (15)
+  //1:1//
 );
+
+CREATE TABLE bloemsoorten
+
+
+//n:m//
