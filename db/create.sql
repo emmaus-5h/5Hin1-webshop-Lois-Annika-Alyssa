@@ -27,3 +27,15 @@ insert into products (name, description, code, price) values ('Pixie', 'Compact 
 insert into products (name, description, code, price) values ('Darling', 'Darling is een rijkgevulde bos met voornamelijk poeder roze tinten. In deze bos zitten onder andere prachtige rozen en chrysanten.', '686928463-6', 24.95);
 insert into products (name, description, code, price) values ('Atelier', 'Dit boeket is gevuld met luxe bloemen met lange stelen. Het boeket bevat vooral warme tinten en ook onder andere een prachtige Japanse bloesemtak', '492662523-7', 30.95);
 
+
+CREATE TABLE verzorging (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  klimaat VARCHAR (15),
+  specification TEXT,
+  voeding VARCHAR (15),
+
+);
+
+insert into verzorging (klimaat,specification,voeding) values ('warm', 'schuin snijden', 'niet nodig'); 
+
+
