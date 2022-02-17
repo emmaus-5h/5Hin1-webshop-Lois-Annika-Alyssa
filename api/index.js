@@ -75,6 +75,16 @@ function getProducts(request, response) {
   console.log('API verstuurt /api/products/')
 }
 
+function getProduct(request, response) {
+  console.log('API ontvangt /api/products/', request.query)
+  let data = []
+  const sqlOpdracht = db.prepare('SELECT verzorging.klimaat AS klimaat, verzorging.specification AS specification, verzorging.voeding AS voeding  FROM verzorging ORDER BY verzorging.klimaat ASC')
+  data = sqlOpdracht.all()
+  // console.log(JSON.stringify(data, null, 2))
+  response.status(200).send(data)
+  console.log('API verstuurt /api/products/')
+}
+
 function getProductById(request, response) {
   console.log('API ontvangt /api/products/:id', request.query)
   let data = []
