@@ -39,3 +39,7 @@ CREATE TABLE verzorging (
 insert into verzorging (klimaat,specification,voeding) values ('warm', 'schuin snijden', 'niet nodig'); 
 
 
+CREATE TABLE symboliek(
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  betekenis VARCHAR (15)
+);
