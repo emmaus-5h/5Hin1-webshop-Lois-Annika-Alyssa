@@ -83,6 +83,8 @@ function getProductById(request, response) {
   response.status(200).json(data[0])
 }
 
+
+
 /*
 const getRelatedProductsById = (request, response) => {
   const id = parseInt(request.params.id)
