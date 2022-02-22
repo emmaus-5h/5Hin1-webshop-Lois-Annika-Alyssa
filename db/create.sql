@@ -38,6 +38,12 @@ CREATE TABLE verzorging (
 );
 
 insert into verzorging (klimaat,specification,voeding) values ('warm', 'schuin snijden', 'niet nodig'); 
+insert into verzorging (klimaat,specification,voeding) values ('vochtig', 'schuin snijden', 'bloemzakje nodig'); 
+insert into verzorging (klimaat,specification,voeding) values ('buiten', 'schuin snijden', 'extra water'); 
+insert into verzorging (klimaat,specification,voeding) values ('middelmatig', 'schuin snijden', 'niet nodig'); 
+insert into verzorging (klimaat,specification,voeding) values ('donker', 'schuin snijden', 'bloemzakje nodig'); 
+insert into verzorging (klimaat,specification,voeding) values ('licht', 'schuin snijden', 'niet nodig'); 
+
 
 
 CREATE TABLE bloemsoorten
