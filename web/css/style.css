@@ -1,7 +1,7 @@
 /* all pages */
 html, 
 body {background-color: rgb(204,226,203);
-   font-family: "American Typewriter"  ;
+   font-family: "Palatino";
      
      }
 
@@ -11,7 +11,7 @@ footer {
   margin: 20px;
   font-size: 12px;
 background-color: rgb(167, 199, 161);
- font-family: "American Typewriter";
+ font-family: "Palatino";
 }
 
 
