@@ -47,6 +47,16 @@ insert into verzorging (klimaat,specification,voeding) values ('middelmatig', 's
 
 
 CREATE TABLE bloemsoorten
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  bloem VARCHAR (15)
+  // kleur VARCHAR (15),
+  hoogte VARCHAR (15),// 
+);
+
+  insert into bloemsoorten (bloem) values 
+  insert into bloemsoorten (bloem) values
+  insert into bloemsoorten (bloem) values
+  insert into bloemsoorten (bloem) values
 
 
 //n:m//
