@@ -1,6 +1,9 @@
 /* all pages */
 html, 
-body {background-color: rgb(204,226,203);}
+body {background-color: rgb(204,226,203);
+   font-family: "American Typewriter"  ;
+     
+     }
 
 
 
