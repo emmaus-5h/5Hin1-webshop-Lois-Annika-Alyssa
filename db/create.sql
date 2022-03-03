@@ -38,10 +38,12 @@ CREATE TABLE verzorging (
 //1:n//
 );
 
-insert into verzorging (klimaat,specification,voeding) values ('warm', 'schuin snijden', 'niet nodig'); 
-insert into verzorging (klimaat,specification,voeding) values ('vochtig', 'schuin snijden', 'bloemzakje nodig'); 
-insert into verzorging (klimaat,specification,voeding) values ('buiten', 'schuin snijden', 'extra water'); 
-insert into verzorging (klimaat,specification,voeding) values ('middelmatig', 'schuin snijden', 'niet nodig'); 
+insert into verzorging (klimaat,specification,voeding) values ('de bloemen blijven het langst mooi in een vochtig klimaat', 'de stelen moeten schuin afgesneden worden', 'niet nodig'); 
+insert into verzorging (klimaat,specification,voeding) values ('het langst vers in een droog en koel klimaat', 'de stelen moeten schuin afgesneden worden', 'zakje voeding voor de bloemen inbegrepen bij het boeket'); 
+insert into verzorging (klimaat,specification,voeding) values ('deze bloemen kunnen zowel binnen als buiten staan', 'de stelen moeten schuin afgesneden worden', 'extra voeding voor bloemen inbegrepen bij het boeket'); 
+insert into verzorging (klimaat,specification,voeding) values ('dit boeket blijft het langst vers als ze op een plek staan waar veel licht is met een droog klimaat', 'de stelen moeten schuin afgesneden worden', 'extra voeding voor de bloemen niet nodig');
+insert into verzorging (klimaat,specification,voeding) values ('in een luchtige koele omgeving blijven de bloemen het mooiste', 'de stelen moeten schuin afgesneden worden', 'voeding niet nodig')
+insert into verzorging (klimaat,specification,voeding) values ('de bloemen blijven het mooiste in een koele lichte omgeving', 'de stelen moeten schuin afgesneden worden', 'zakje voeding voor de bloemen inbegrepen')
 
 
 
@@ -49,14 +51,15 @@ insert into verzorging (klimaat,specification,voeding) values ('middelmatig', 's
 CREATE TABLE bloemsoorten
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   bloem VARCHAR (15)
-  // kleur VARCHAR (15),
-  hoogte VARCHAR (15),// 
+
 );
 
-  insert into bloemsoorten (bloem) values 
-  insert into bloemsoorten (bloem) values
-  insert into bloemsoorten (bloem) values
-  insert into bloemsoorten (bloem) values
+  insert into bloemsoorten (bloem) values ('De lelie, roos en Prunus zorgen voor zoete vleugjes abrikoos net als de eerste lentedag') 
+  insert into bloemsoorten (bloem) values ('original is een prachtig boeket met mooie tulpen en germinis allemaal op verschillende hoogtes afgesneden zodat elke bloem de ruimte krijgt')
+  insert into bloemsoorten (bloem) values ('dit boeket is gevuld met onder andere super mooie lelies en chrysanten')
+  insert into bloemsoorten (bloem) values ('Ons boeket original heeft super mooie oranje lelies maar ook super mooie rode rozen waardoor het een echt lente boeket is')
+insert into bloemsoorten (bloem) values ('pixie heeft onder andere prachtige anjers maar ook mooie roze germinis wat dit boeket een echte centerpiece voor op tafel maakt')
+insert into bloemsoorten (bloem) values ('Pretty in Pink is gevuld met fluweelzachte seizoensbloemen. In dit boeket vind je o.a. anjers, Chrysanten en rozen')
 
 
 //n:m//
