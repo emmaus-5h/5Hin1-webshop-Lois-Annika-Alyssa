@@ -22,26 +22,29 @@ background-color: #FEDCC1;
     top: 50px; 
     right: 0; 
     z-index:0;
- 
 }
 
 .shop-button {
   font-size: 15px;
   margin-top: -4px;
+ background-color: #FFFFFF;
+ color: #000000;
 }
 
 .article-container {
   margin: auto;
+
 }
 
 .card {
   width:200px; 
   height: 700px; 
-  margin-bottom: 20px
+  margin-bottom: 20px  
 }
 
 .card-header {
   height: 5em;
+background-color: #FFFFFF;
 }
 
 .card-text {
@@ -54,7 +57,7 @@ background-color: #FEDCC1;
   height: inherit; 
   margin-bottom: 20px;
   margin-top: 20px;
-  background-color: #FAFDF3;
+  background-color: #FFFFFF;
 }
 
 .product img {
