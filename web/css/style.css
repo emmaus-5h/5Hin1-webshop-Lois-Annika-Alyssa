@@ -9,7 +9,7 @@ body {background-color: rgb(204,226,203);
 footer {
   margin: 20px;
   font-size: 12px;
-background-color: #FFD8BE;
+background-color: #FEDCC1;
  font-family:"Palatino";
 }
 
@@ -54,7 +54,7 @@ background-color: #FFD8BE;
   height: inherit; 
   margin-bottom: 20px;
   margin-top: 20px;
-    background-color: #FAFDF3;
+  background-color: #FAFDF3;
 }
 
 .product img {
