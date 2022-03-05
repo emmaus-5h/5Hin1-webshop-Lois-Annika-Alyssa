@@ -28,7 +28,8 @@ background-color: #FEDCC1;
   font-size: 15px;
   margin-top: -4px;
  background-color: #FFFFFF;
- color: #000000;
+ color: #FF968A;
+ 
 }
 
 .article-container {
@@ -73,6 +74,7 @@ background-color: #FAFDF3;
   display: inline-block;
   width: 50px;
 }
+
 .product_amount {
   width: 80px
 }
