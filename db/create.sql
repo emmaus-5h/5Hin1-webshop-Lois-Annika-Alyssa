@@ -54,12 +54,12 @@ CREATE TABLE bloemsoorten
 
 );
 
-  insert into bloemsoorten (bloem) values ('De lelie, roos en Prunus zorgen voor zoete vleugjes abrikoos net als de eerste lentedag') 
-  insert into bloemsoorten (bloem) values ('original is een prachtig boeket met mooie tulpen en germinis allemaal op verschillende hoogtes afgesneden zodat elke bloem de ruimte krijgt')
-  insert into bloemsoorten (bloem) values ('dit boeket is gevuld met onder andere super mooie lelies en chrysanten')
-  insert into bloemsoorten (bloem) values ('Ons boeket original heeft super mooie oranje lelies maar ook super mooie rode rozen waardoor het een echt lente boeket is')
-insert into bloemsoorten (bloem) values ('pixie heeft onder andere prachtige anjers maar ook mooie roze germinis wat dit boeket een echte centerpiece voor op tafel maakt')
-insert into bloemsoorten (bloem) values ('Pretty in Pink is gevuld met fluweelzachte seizoensbloemen. In dit boeket vind je o.a. anjers, Chrysanten en rozen')
+  insert into bloemsoorten (bloem) values ('lelie') 
+  insert into bloemsoorten (bloem) values ('germini')
+  insert into bloemsoorten (bloem) values ('chrysanten')
+  insert into bloemsoorten (bloem) values ('lelies')
+insert into bloemsoorten (bloem) values ('anjers')
+insert into bloemsoorten (bloem) values ('rozen')
 
 
 //n:m//
