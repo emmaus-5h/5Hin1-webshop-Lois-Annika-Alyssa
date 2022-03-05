@@ -1,8 +1,7 @@
 /* all pages */
 html, 
 body {background-color: rgb(204,226,203);
-   font-family: "Palatino";
-     
+   font-family:"Palatino";
      }
 
 
@@ -10,8 +9,8 @@ body {background-color: rgb(204,226,203);
 footer {
   margin: 20px;
   font-size: 12px;
-background-color: rgb(167, 199, 161);
- font-family: "Palatino";
+background-color: #FFD8BE;
+ font-family:"Palatino";
 }
 
 
@@ -23,7 +22,7 @@ background-color: rgb(167, 199, 161);
     top: 50px; 
     right: 0; 
     z-index:0;
-  
+ 
 }
 
 .shop-button {
@@ -55,6 +54,7 @@ background-color: rgb(167, 199, 161);
   height: inherit; 
   margin-bottom: 20px;
   margin-top: 20px;
+    background-color: #FFD8BE;
 }
 
 .product img {
