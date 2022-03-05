@@ -44,7 +44,7 @@ background-color: #FEDCC1;
 
 .card-header {
   height: 5em;
-background-color: #FFFFFF;
+background-color: #FAFDF3;
 }
 
 .card-text {
@@ -57,7 +57,7 @@ background-color: #FFFFFF;
   height: inherit; 
   margin-bottom: 20px;
   margin-top: 20px;
-  background-color: #FFFFFF;
+  background-color: #FAFDF3;
 }
 
 .product img {
