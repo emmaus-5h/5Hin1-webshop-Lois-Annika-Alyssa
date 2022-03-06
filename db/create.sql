@@ -74,3 +74,11 @@ CREATE TABLE bloemsoorten (
   insert into bloemsoorten (bloem, boeket) values ('tulpen',(1, 5, 6, 8, 9));
   insert into bloemsoorten (bloem, boeket) values ('zonnebloem', (5, 6, 9, 10));
 
+CREATE TABLE kleuren (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  kleur TEXT (15)
+);
+insert into kleuren (kleur) values ('rood');
+insert into kleuren (kleur) values ('groen');
+insert into kleuren (kleur) values ('paars');
+insert into kleuren (kleur) values ('oranje');
