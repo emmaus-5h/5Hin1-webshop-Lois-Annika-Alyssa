@@ -50,16 +50,16 @@ insert into verzorging (klimaat,specification,voeding) values ('de bloemen blijv
 
 CREATE TABLE bloemsoorten
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  bloem VARCHAR (15)
-
+  bloem VARCHAR (15),
+  boeket VARCHAR (15)
 );
 
-  insert into bloemsoorten (bloem) values ('lelie') 
-  insert into bloemsoorten (bloem) values ('germini')
-  insert into bloemsoorten (bloem) values ('chrysanten')
-  insert into bloemsoorten (bloem) values ('lelies')
-insert into bloemsoorten (bloem) values ('anjers')
-insert into bloemsoorten (bloem) values ('rozen')
+  insert into bloemsoorten (bloem, boeket) values ('lelie', (1, 5, 6)) 
+  insert into bloemsoorten (bloem, boeket) values ('germini', (2, 3, 4))
+  insert into bloemsoorten (bloem, boeket) values ('chrysanten', 6)
+  insert into bloemsoorten (bloem, boeket) values ('lelies', (1, 2, 6))
+  insert into bloemsoorten (bloem, boeket) values ('anjers', (3, 4))
+  insert into bloemsoorten (bloem, boeket) values ('rozen', (1, 3, 4, 5, 6))
 
 
 //n:m//
