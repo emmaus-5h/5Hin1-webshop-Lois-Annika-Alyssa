@@ -54,12 +54,10 @@ CREATE TABLE bloemsoorten (
   
 
 
-  insert into bloemsoorten (bloem, boeket) values ('lelie', (1, 5, 6)) 
-  insert into bloemsoorten (bloem, boeket) values ('germini', (2, 3, 4))
-  insert into bloemsoorten (bloem, boeket) values ('chrysanten', 6)
-  insert into bloemsoorten (bloem, boeket) values ('lelies', (1, 2, 6))
-  insert into bloemsoorten (bloem, boeket) values ('anjers', (3, 4))
+  insert into bloemsoorten (bloem, boeket) values ('lelie', (1, 5, 6)) ;
+  insert into bloemsoorten (bloem, boeket) values ('germini', (2, 3, 4));
+  insert into bloemsoorten (bloem, boeket) values ('chrysanten', 6);
+  insert into bloemsoorten (bloem, boeket) values ('lelies', (1, 2, 6));
+  insert into bloemsoorten (bloem, boeket) values ('anjers', (3, 4));
   insert into bloemsoorten (bloem, boeket) values ('rozen', (1, 3, 4, 5, 6));
 
-
-//n:m//
