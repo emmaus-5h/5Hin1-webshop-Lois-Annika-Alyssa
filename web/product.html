@@ -90,6 +90,10 @@
                 clone.querySelector(".product_title").textContent += product.name
                 clone.querySelector(".product_description").textContent = product.description
                 clone.querySelector(".product_symboliek").textContent =`${product.symboliek}`
+               /* clone.querySelector(".verzorging_klimaat").textContent =`${verzorging.klimaat}`
+                clone.querySelector(".verzorging_specification").textContent =`${verzorging.specification}`
+                clone.querySelector(".verzorging_voeding").textContent =`${verzorging.voeding}`
+deze code werkt niet maar we konden er niet achter komen waarom*/
                 clone.querySelector(".product_price").textContent = `€ ${product.price.toFixed(2)}`
                 clone.querySelector(".product_code").textContent = product.code
                 clone.querySelector(".product_id").value = product.id
