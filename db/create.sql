@@ -70,7 +70,7 @@ CREATE TABLE bloemsoorten (
   insert into bloemsoorten (bloem, boeket) values ('anjers', (3, 4));
   insert into bloemsoorten (bloem, boeket) values ('rozen', (1, 3, 4, 5, 6));
   insert into bloemsoorten (bloem, boeket) values ('roos', 7);
-  insert into bloemsoorten (bloem, boeket) values ('gerbera', 8);
-  insert into bloemsoorten (bloem, boeket) values ('tulpen',9);
-  insert into bloemsoorten (bloem, boeket) values ('zonnebloem', 10);
+  insert into bloemsoorten (bloem, boeket) values ('gerbera', (3, 5, 8));
+  insert into bloemsoorten (bloem, boeket) values ('tulpen',(1, 5, 6, 8, 9));
+  insert into bloemsoorten (bloem, boeket) values ('zonnebloem', (5, 6, 9, 10));
 
