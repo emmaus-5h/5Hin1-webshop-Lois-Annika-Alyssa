@@ -89,9 +89,9 @@ insert into kleuren (kleur) values ('oranje' (6,7,10));
   boekethoogte NUMERIC (15)
   );
 
-  insert into lengte (lengte) values ('15 centimeter',8);
-  insert into lengte (lengte) values ('25 centimer',1);
+  insert into lengte (lengte) values ('15 centimeter',(2, 5, 8));
+  insert into lengte (lengte) values ('25 centimer',(1, 3));
   insert into lengte (lengte)
-  values ('30 centimer',4);
+  values ('30 centimer',(4, 7, 9, 10));
   insert into lengte (lengte)
   values ('21 centimeter',6);
