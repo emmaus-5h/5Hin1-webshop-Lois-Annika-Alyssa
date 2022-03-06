@@ -47,6 +47,10 @@ insert into verzorging (klimaat,specification,voeding) values ('deze bloemen kun
 insert into verzorging (klimaat,specification,voeding) values ('dit boeket blijft het langst vers als ze op een plek staan waar veel licht is met een droog klimaat', 'de stelen moeten schuin afgesneden worden', 'extra voeding voor de bloemen niet nodig');
 insert into verzorging (klimaat,specification,voeding) values ('in een luchtige koele omgeving blijven de bloemen het mooiste', 'de stelen moeten schuin afgesneden worden', 'voeding niet nodig');
 insert into verzorging (klimaat,specification,voeding) values ('de bloemen blijven het mooiste in een koele lichte omgeving', 'de stelen moeten schuin afgesneden worden', 'zakje voeding voor de bloemen inbegrepen');
+insert into verzorging (klimaat,specification,voeding) values ('in een koele omgeving', 'de stelen moeten schuin afgesneden worden', 'zakje voeding inbegrepen');
+insert into verzorging (klimaat,specification,voeding) values ('in warme omgeving', 'de stelen moeten schuin afgesneden worden', 'geen voeding');
+insert into verzorging (klimaat,specification,voeding) values ('in een koud droog klimaat', 'de stelen moeten schuin afgesneden worden', 'wel voeding inbegrepen');
+insert into verzorging (klimaat,specification,voeding) values ('in warm klimaat', 'de stelen moeten schuin afgesneden worden', 'voeding niet inbegrepen bij boeket');
 
 
 
