@@ -82,3 +82,16 @@ insert into kleuren (kleur) values ('rood');
 insert into kleuren (kleur) values ('groen');
 insert into kleuren (kleur) values ('paars');
 insert into kleuren (kleur) values ('oranje');
+
+  CREATE TABLE lengte (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  lengte TEXT (15)
+  boekethoogte NUMERIC (15)
+  );
+
+  insert into lengte (lengte) values ('15 centimeter',8);
+  insert into lengte (lengte) values ('25 centimer',1);
+  insert into lengte (lengte)
+  values ('30 centimer',4);
+  insert into lengte (lengte)
+  values ('21 centimeter',6);
