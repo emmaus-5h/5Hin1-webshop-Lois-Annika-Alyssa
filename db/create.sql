@@ -48,8 +48,8 @@ insert into verzorging (klimaat,specification,voeding) values ('de bloemen blijv
 
 CREATE TABLE bloemsoorten (  
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  bloem VARCHAR (15),
-  boeket VARCHAR (15)
+  bloem TEXT (15),
+  boeket NUMERIC (15)
   );
   
 
