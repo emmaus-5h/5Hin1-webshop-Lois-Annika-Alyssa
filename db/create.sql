@@ -78,10 +78,10 @@ CREATE TABLE kleuren (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   kleur TEXT (15)
 );
-insert into kleuren (kleur) values ('rood');
-insert into kleuren (kleur) values ('groen');
-insert into kleuren (kleur) values ('paars');
-insert into kleuren (kleur) values ('oranje');
+insert into kleuren (kleur) values ('rood', (2,5,8));
+insert into kleuren (kleur) values ('groen', (5,9,2));
+insert into kleuren (kleur) values ('paars', (1,3,4));
+insert into kleuren (kleur) values ('oranje' (6,7,10));
 
   CREATE TABLE lengte (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
