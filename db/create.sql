@@ -9,10 +9,9 @@ CREATE TABLE products (
   description TEXT,
   symboliek TEXT,
   price NUMERIC(10, 2),
-  verzorging NUMERIC(10, 2)
-);
+  verzorging NUMERIC(10, 2)) ;
 
-
+  
 --
 -- populate with data
 --
@@ -29,14 +28,12 @@ insert into products (name, description, code, symboliek, price, verzorging) val
 insert into products (name, description, code, symboliek, price, verzorging) values ('Darling', 'Darling is een rijkgevulde bos met voornamelijk poeder roze tinten. In deze bos zitten onder andere prachtige rozen en chrysanten.', '686928463-6', 'De roos staat voor geluk, bewondering, dankbaarheid en vreugde. De chrysant is in japan het symbool van de zon en het licht. De Japanners vieren ieder jaar het Festival van geluk hierbij wordt de chrysant geëerd.', 24.95, 1);
 insert into products (name, description, code, symboliek, price, verzorging) values ('Atelier', 'Dit boeket is gevuld met luxe bloemen met lange stelen. Het boeket bevat vooral warme tinten en ook onder andere een prachtige Japanse bloesemtak', '492662523-7', 'Dit boeket bevat de prachtige Japanse bloesemtak. In Japan wordt de bloesem Sakura genoemd. De bloem staat symbool voor de vergankelijke schoonheid.', 30.95, 4);
 
-
 CREATE TABLE verzorging (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   klimaat VARCHAR (15),
   specification TEXT,
   voeding VARCHAR (15),
-//1:n//
-);
+) ;
 
 insert into verzorging (klimaat,specification,voeding) values ('de bloemen blijven het langst mooi in een vochtig klimaat', 'de stelen moeten schuin afgesneden worden', 'niet nodig'); 
 insert into verzorging (klimaat,specification,voeding) values ('het langst vers in een droog en koel klimaat', 'de stelen moeten schuin afgesneden worden', 'zakje voeding voor de bloemen inbegrepen bij het boeket'); 
@@ -48,11 +45,12 @@ insert into verzorging (klimaat,specification,voeding) values ('de bloemen blijv
 
 
 
-CREATE TABLE bloemsoorten
+CREATE TABLE bloemsoorten (  
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   bloem VARCHAR (15),
-  boeket VARCHAR (15)
-);
+  boeket VARCHAR (15)) ;
+  
+
 
   insert into bloemsoorten (bloem, boeket) values ('lelie', (1, 5, 6)) 
   insert into bloemsoorten (bloem, boeket) values ('germini', (2, 3, 4))
